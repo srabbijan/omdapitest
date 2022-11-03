@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/rev"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:background="@color/card_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:textColor="@color/title_text_color"
+        android:id="@+id/Source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="14sp"
+        android:layout_below="@id/frame_id" />
+        <TextView
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round_shape2"
+            android:textColor="@color/title_text_color"
+            android:id="@+id/Value"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:minWidth="30dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="2013"
+            android:textSize="14sp"
+        />
+
+
+
+</LinearLayout>
